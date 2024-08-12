@@ -4,7 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AnimeFinder"
-   
+    xmlns:views="clr-namespace:AnimeFinder.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="Anime">
 
@@ -29,7 +29,7 @@
     <ShellContent
         Shell.NavBarIsVisible="True"
         Title="Anime"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate views:MainPage}"
         Route="MainPage" />
 
 </Shell>

@@ -2,12 +2,40 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:AnimeFinder.Models"
-             x:Class="AnimeFinder.MainPage">
+             x:Class="AnimeFinder.Views.Mainpage">
 
-    <CollectionView>
+    <CollectionView >
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type model:Anime}">
                 <model:Anime 
+                    title="''Aesop'' no Ohanashi yori: Ushi to Kaeru, Yokubatta Inu"
+                    picture="https://cdn.myanimelist.net/images/anime/3/65151.jpg"
+                    type="South Korea"
+                    />
+                <model:Anime 
+                    title="''Bungaku Shoujo'' Movie"
+                    picture="https://cdn.myanimelist.net/images/anime/8/81162.jpg"
+                    type="Japan"
+                    />
+                <model:Anime
+                    title="''Eiyuu'' Kaitai"
+                    picture="https://cdn.myanimelist.net/images/anime/1192/112238.jpg"
+                    type="china"
+                    /> <model:Anime 
+                    title="''Aesop'' no Ohanashi yori: Ushi to Kaeru, Yokubatta Inu"
+                    picture="https://cdn.myanimelist.net/images/anime/3/65151.jpg"
+                    type="South Korea"
+                    />
+                <model:Anime 
+                    title="''Bungaku Shoujo'' Movie"
+                    picture="https://cdn.myanimelist.net/images/anime/8/81162.jpg"
+                    type="Japan"
+                    />
+                <model:Anime
+                    title="''Eiyuu'' Kaitai"
+                    picture="https://cdn.myanimelist.net/images/anime/1192/112238.jpg"
+                    type="china"
+                    /> <model:Anime 
                     title="''Aesop'' no Ohanashi yori: Ushi to Kaeru, Yokubatta Inu"
                     picture="https://cdn.myanimelist.net/images/anime/3/65151.jpg"
                     type="South Korea"
